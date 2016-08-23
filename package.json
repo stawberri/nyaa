@@ -1,0 +1,33 @@
+{
+  "name": "nyaa",
+  "version": "0.0.0",
+  "description": "nyaa",
+  "main": "lib/index.js",
+  "bin": {
+    "nyaa": "bin/nyaa"
+  },
+  "scripts": {
+    "test": "node bin/nyaa"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://stawberri@github.com/stawberri/nyaa.git"
+  },
+  "keywords": [
+    "text",
+    "nyan",
+    "nyaa",
+    "nya",
+    "mew",
+    "meow",
+    "generator",
+    "command",
+    "cli"
+  ],
+  "author": "Pudding <aideen@aideen.pw> (https://aideen.pw/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stawberri/nyaa/issues"
+  },
+  "homepage": "https://github.com/stawberri/nyaa#readme"
+}
