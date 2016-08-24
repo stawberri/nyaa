@@ -1,3 +1,20 @@
 #!/usr/bin/env node
-let paragraphs = parseInt(process.argv[2])
-console.log(require('../lib')(isNaN(paragraphs) ? undefined : paragraphs, 80))
+let arg = process.argv[2]
+if(arg !== undefined) {
+  let parsed = parseInt(arg)
+  if(isNaN(parsed)) {
+    console.error(`
+      usage: nyaa [paragraphs] [wordwrap]
+        paragraphs  number of paragraphs to nyaa (default: 1)
+        wordwrap    number of characters to nyaa per line
+    `.trim().replace(/^ {6}/mg, ''))
+    process.exit(1)
+  }
+  arg = parsed
+}
+let arg2 = process.argv[3]
+if(arg2 !== undefined) {
+  let parsed = parseInt(arg2)
+  if(!isNaN(parsed)) arg2 = parsed
+}
+console.log(require('../lib')(arg, arg2))
