@@ -1,5 +1,5 @@
 # nyaa
-nyaa
+cuter dummy text
 
 [![NPM](https://nodei.co/npm/nyaa.png?mini=true)](https://nodei.co/npm/nyaa/)
 
