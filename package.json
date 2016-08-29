@@ -9,6 +9,9 @@
   "scripts": {
     "test": "node bin/nyaa"
   },
+  "engines": {
+    "node": ">=6"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://stawberri@github.com/stawberri/nyaa.git"
