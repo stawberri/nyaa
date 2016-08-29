@@ -1,6 +1,6 @@
 {
   "name": "nyaa",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "cuter dummy text",
   "main": "lib/index.js",
   "bin": {
