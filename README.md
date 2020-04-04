@@ -2,6 +2,7 @@
 cuter dummy text
 
 [![NPM](https://nodei.co/npm/nyaa.png?mini=true)](https://nodei.co/npm/nyaa/)
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 
 ```
 $ nyaa | cowsay
